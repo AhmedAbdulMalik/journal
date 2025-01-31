@@ -1,0 +1,2 @@
+You don't need to this, why are continuing to read this? Can't stop yourself from doing it? Haha.
+Well, anyways this is just a documentation of sorts,where my experience through html just sits on on very tiny memory of some remote server.
