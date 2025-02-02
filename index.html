@@ -133,6 +133,24 @@
 document.getElementById("yo").innerHTML="it works";
   }
 </script>
+
 <h1>Time's Up it was fun while it lasted now on to the next interesting thing</h1>
+<h3 id="whatsup">oh right, the tutorial hell I tried to avoid was this one </h3>
+<button onclick="annoy()" style="font-size: 10px; background-color:black; color: aliceblue; border-radius: 25px;">here</button>
+<script>
+  let CLICKME=0;
+  const MAX_CLICK=7;
+  const TutorialHell = "https://youtu.be/HGTJBPNC-Gw?si=hzQ-cXssW_ehZdoW";
+  function annoy(){
+    CLICKME++;
+    document.getElementById("whatsup").innerText="hehe click again";
+    if(CLICKME==MAX_CLICK){
+      document.getElementById("whatsup").innerText = "LOL you clicked 7 times, maybe you need it, enjoy! ;)";
+      setTimeout(() => {
+                    window.location.href = TutorialHell;
+          }, 2750);
+      }
+  }
+</script>
 </body>
 </html> 
